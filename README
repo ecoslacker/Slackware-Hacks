@@ -1,8 +1,10 @@
-This repository is a list of my few hacks in Slackware 14, mainly SlackBuilds. Some of my contributions
-are just modifications of pre-existing scripts that I use. 
+This repository is a list of my few hacks in Slackware 14, mainly
+SlackBuilds. Some of my contributions are just modifications of
+pre-existing scripts that I use. 
 
-DISCLAIMER: Every script or patch that I put here is tested on my computer (Slackware 14 x86 or 32 bits).
-If you want to use it or your machine, with the same or different architecture and version, use it
-on your own risk.
+DISCLAIMER: Every script or patch that I put here is tested on
+my computer (Slackware 14 x86 or 32 bits). If you want to use it 
+on your machine, with the same or different architecture and version,
+use it on your own risk.
 
 Eduardo Jiménez <eddojh@gmail.com>
