@@ -1,4 +1,2 @@
 xfce4-xkb-plugin can be used to show the current keyboard layout and/or
 to select a layout from those defined in the /etc/X11/xorg.conf file.
-
-EDIT: This version uses a patch to fix the crash bug ocurred by using the latam (Latin America Spanish) distribution.
