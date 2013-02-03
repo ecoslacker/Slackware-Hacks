@@ -1,0 +1,31 @@
+diff --git a/panel-plugin/xkb-util.c b/panel-plugin/xkb-util.c
+index d0d0230..058e01b 100644
+--- a/panel-plugin/xkb-util.c
++++ b/panel-plugin/xkb-util.c
+@@ -66,7 +66,7 @@ xkb_util_get_layout_string (const gchar *group_name, const gchar *variant)
+ gchar*
+ xkb_util_normalize_group_name (const gchar* group_name)
+ {
+-    gchar *c;
++    gchar *c0, *c;
+     gchar *result;
+     gint cut_length;
+     gint index_of_na = -1;
+@@ -78,7 +78,7 @@ xkb_util_normalize_group_name (const gchar* group_name)
+     if (strlen (group_name) <= 3)
+         return g_strdup (group_name);
+ 
+-    c = g_strdup (group_name);
++    c0 = c = g_strdup (group_name);
+ 
+     while (*c)
+     {
+@@ -97,7 +97,7 @@ xkb_util_normalize_group_name (const gchar* group_name)
+ 
+     result = g_strndup (group_name, cut_length);
+ 
+-    g_free (c);
++    g_free (c0);
+ 
+     return result;
+ }
